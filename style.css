@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.line{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+li{
+    padding-right: 20px;
+    font-size: 20px;
+    color: #003072;
+}
+a{
+    text-decoration: none;
+}
+.button{
+    padding: 13px 8px;
+    border: 3px solid #003072;
+    color: #003072;
+    transition: 1s;
+}
+.button:hover{
+    background-color: #003072;
+    color: white;
+}
+.hp{
+    font-size: 30px;
+    color: black;
+}
+.grey{
+    color: grey;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    width: 100%;
+    background-image: url(./Image/h1_hero1.jpg);
+    height: 75vh;
+}
+.content{
+    width: 30%;
+    margin-left: 300px;
+    padding-top: 200px;
+}
+h1{
+    font-size: 70px;
+    color: white;
+
+}
+.find{
+    padding: 13px 8px;
+    border: 3px solid white;
+    color: white;
+}
+section{
+    background-color: #0E1B50;
+}
+.w{
+    padding: 20px 0 20px 0;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+.LM{
+    padding: 13px 8px;
+    border: 3px solid White;
+    color: white;   
+}
+.flex{
+    display: flex;
+}
+.find{
+    background-color: white;
+    width: 70%;
+    height: 700px ;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.boxes{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.box{
+    width: 25%;
+    background-color: #f3f8ff;
+    margin-right: 30px;
+    height: 290px;
+    p{
+        color:#0E1B50;
+    }
+    a{
+        text-decoration: none;
+        color: #0E1B50;
+    }
+    i{
+        color: #0E1B50;
+    }
+}
+.c{
+    margin-bottom: 60px;
+    h4{
+        text-transform: uppercase;
+        color: #003072;
+        font-size: 17px;
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
+    h2{
+        color: #003072;
+        font-size: 38px;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+    p{
+        margin-bottom: 20px;
+        width: 60%;
+        margin: auto;
+        font-size: 18px;
+    }
+}
+.o{
+    text-align: center;
+    margin-top: 50px;
+    i{
+        font-size: 45px;
+        color: #003072;
+    }
+    p{
+        padding: 10px 0 10px 0;
+        color: #003072;
+        font-size: 30px;
+    }
+    a{
+        display: none;
+        span{
+            i{
+                display: none;
+            }
+        }
+    }
+}
